@@ -1,11 +1,9 @@
 ---
 layout: post
-title:  "How Stdout works"
+title:  "From printf() to the kernel"
 date:   2019-12-26 11:04:47 +0000
-categories: jekyll update
+categories: tutorial
 ---
-
-## Users space
 
 Consider:
 
@@ -108,6 +106,10 @@ my_string:
 ```
 
 Where 0x6000ca is the address of the string. Sure enough, running `./asm` produces the expcted output and we can see the syscall in action with strace.
+
+## Kernel interface
+
+We've passed in 1 for the write file descriptor. This fd was set up for us for.
 
 ## References
 
