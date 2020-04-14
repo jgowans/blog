@@ -1,7 +1,9 @@
 ---
 layout: post
 title:  "From allnoconfig kernel to Debian on EC2"
-date:   2019-04-20 11:04:47 +0000
+date:   2020-04-12 11:04:47 +0000
+redirect_from:
+    /tutorial/2019/04/20/from-allnoconfig-to-debian-on-ec2.html
 categories: tutorial
 ---
 
